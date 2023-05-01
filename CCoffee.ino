@@ -13,7 +13,7 @@ void loop() {
   int press_value = analogRead(press_pin);
 
   Serial.println(press_value);
-  delay(1);
+  delay(1000);
 
 
 
